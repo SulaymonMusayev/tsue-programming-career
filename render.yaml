@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tsue-career
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SUPABASE_URL
+        value: https://avmfnfdbbabsztlsncsp.supabase.co
+      - key: SUPABASE_ANON_KEY
+        value: sb_publishable_g881X4TO19N8rYydjxCsQ_dU4MMgAb
+      - key: PORT
+        value: 3000
