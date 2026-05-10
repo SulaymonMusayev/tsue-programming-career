@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: tsue-career
-    runtime: static
-    buildCommand: echo "No build needed"
-    publish: public
